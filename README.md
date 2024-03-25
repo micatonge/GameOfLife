@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Conway's Game of Life
 
-## Getting Started
+Conway's Game of Life is a classic cellular automaton devised by mathematician John Horton Conway in 1970. It's a zero-player game, meaning its evolution is determined by its initial state. Players interact with the game by creating an initial configuration and observing how it evolves.
 
-First, run the development server:
+This project implements Conway's Game of Life using React, Typescript, and Chakra UI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To run this project locally, follow these steps:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/micatonge/GameOfLife.git
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+2. Navigate to the project directory:
+   ```bash
+    cd GameOfLife
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependecnies:
+   ```bash
+   npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Start the development server:
+   ```bash
+   npm start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Open your browser and go to http://localhost:3000 to view the application.
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To interact with Conway's Game of Life:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Click on cells:** Toggle their state between alive and dead.
+- **Controls:**
+  - **Start/Stop:** Begin or pause the simulation.
+  - **Clear:** Reset the board to an empty state.
+  - **Random:** Populate the board with a random configuration.
+- **Themes:** Customize the appearance of the game board by selecting different themes.
+
+## Credits
+React
+Typescript
+Chakra UI
