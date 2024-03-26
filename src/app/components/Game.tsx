@@ -29,8 +29,8 @@ class Cell extends Component<CellProps> {
             <div className="Cell" style={{
                 left: `${CELL_SIZE * x + 1}px`,
                 top: `${CELL_SIZE * y + 1}px`,
-                width: `${CELL_SIZE - 2}px`, // Subtract 2 to account for border
-                height: `${CELL_SIZE - 2}px`, // Subtract 2 to account for border
+                width: `${CELL_SIZE - 2}px`, 
+                height: `${CELL_SIZE - 2}px`, 
             }} />
         );
     }
